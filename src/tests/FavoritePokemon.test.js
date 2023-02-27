@@ -4,10 +4,11 @@ import { FavoritePokemon } from '../pages';
 
 describe('', () => {
   const fakeChu = {
+    id: 25,
     name: 'Pikachu',
     type: 'Electric',
     averageWeight: {
-      value: 6.0,
+      value: '6.0',
       measurementUnit: 'kg',
     },
     image: 'https://archives.bulbagarden.net/media/upload/b/b2/Spr_5b_025_m.png',
