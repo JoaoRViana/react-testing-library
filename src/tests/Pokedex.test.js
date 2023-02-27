@@ -1,7 +1,6 @@
-
 import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-
+import render from './helper/render';
 import App from '../App';
 
 describe('', () => {
@@ -38,4 +37,3 @@ describe('', () => {
     expect(pikachu).toBeInTheDocument();
   });
 });
-
